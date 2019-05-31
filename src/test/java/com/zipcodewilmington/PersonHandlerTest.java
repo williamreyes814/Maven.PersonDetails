@@ -14,7 +14,7 @@ public class PersonHandlerTest {
     @Before
     public void setup() {
         // : Given
-        Person person1 = new Person("Leon", "Hunter");
+        Person person1 = new Person("Leon","Hunter");
         Person person2 = new Person("Tariq", "Hook");
         Person person3 = new Person("Dolio", "Durant");
         Person[] personArray = {person1, person2, person3};
